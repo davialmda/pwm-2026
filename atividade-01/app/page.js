@@ -1,26 +1,21 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <h1>Meus exercícios de CSS</h1>
 
       <nav>
-        <ul>
-          <li>
-            <a href="/atividade1">Exercício 1</a>
-          </li>
+        <Link href="/atividade1">Atividade 1</Link>
+        <br />
 
-          <li>
-            <a href="/atividade2">Exercício 2</a>
-          </li>
+        <Link href="/atividade2">Atividade 2</Link>
+        <br />
 
-          <li>
-            <a href="/atividade3">Exercício 3</a>
-          </li>
+        <Link href="/atividade3">Atividade 3 </Link>
+        <br />
 
-          <li>
-            <a href="/atividade4">Exercício 4</a>
-          </li>
-        </ul>
+        <Link href="/atividade4">Atividade 4</Link>
       </nav>
     </main>
   );
