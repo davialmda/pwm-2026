@@ -1,2 +1,2 @@
-Link [Jogo de dados](https://pwm-2026b.vercel.app/)
+Link [Jogo de dados](https://pwm-2026c.vercel.app/)
 
