@@ -1,0 +1,87 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #2563eb;
+  margin-top: 20px;
+}
+
+.desenho pre {
+  font-family: monospace;
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+}
+
+.palavra {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin: 20px 0;
+}
+
+.win {
+  color: green;
+  font-weight: bold;
+}
+
+.lose {
+  color: red;
+  font-weight: bold;
+}
+
+.restart {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.teclado {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.teclado button {
+  width: 36px;
+  height: 36px;
+  margin: 3px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: white;
+  font-weight: bold;
+}
+
+.teclado button:disabled {
+  opacity: 0.6;
+}
+
+.certo {
+  background: green !important;
+  color: white;
+}
+
+.errado {
+  background: red !important;
+  color: white;
+}
+
+.tentadas {
+  color: #666;
+}
