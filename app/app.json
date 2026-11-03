@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "jogo-dados-expo",
+    "slug": "jogo-dados-davialmda",
+    "owner": "lucassoares-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "app",
+    "scheme": "jogodadosexpo",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -20,7 +21,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -37,6 +38,9 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
