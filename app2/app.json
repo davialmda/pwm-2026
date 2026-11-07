@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "jogo-dados-expo",
-    "slug": "jogo-dados-davialmda",
+    "slug": "jogo-de-dados",
     "owner": "lucassoares-team",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -41,6 +41,19 @@
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "9de63260-aaea-4b0a-95d1-86b8f8b34ed0"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9de63260-aaea-4b0a-95d1-86b8f8b34ed0"
     }
   }
 }
